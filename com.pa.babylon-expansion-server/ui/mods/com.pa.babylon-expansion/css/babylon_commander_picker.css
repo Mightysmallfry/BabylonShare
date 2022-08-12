@@ -1,0 +1,94 @@
+/* color picker fix */
+.div-color-picker {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Base game commander picker colouring */
+
+.div-commander-picker-item {
+  background: rgba(0, 50, 70, 0.5) !important;
+  border: 1px solid rgba(0, 179, 255, 1) !important;
+}
+
+.div-commander-picker-item.btn_std_ix:hover {
+  background: rgba(0, 179, 255, 0.75) !important;
+  border: 1px solid rgba(0, 179, 255, 0.1) !important;
+  box-shadow: 0 0 15px rgba(0, 179, 255, 0.8) !important;
+}
+
+.div-commander-picker-item.btn_std_ix:active {
+  background: rgba(0, 179, 255, 1) !important;
+  border: 1px solid rgba(0, 179, 255, 1) !important;
+  box-shadow: 0 0 30px rgba(0, 179, 255, 1) !important;
+}
+
+/* Base game outline references*/
+
+.slot-player.mlaslot {
+  border-image: url("coui://ui/mods/com.pa.babylon-expansion/img/ctrl_user_mla.png")
+    0 17 53 17 !important;
+}
+
+.slot-player.mlaslot.ready {
+  border-image: url("coui://ui/mods/com.pa.babylon-expansion/img/ctrl_user_locked_mla.png")
+    0 17 53 17 !important;
+}
+
+.slot-player.mlaslot.loading {
+  border-image: url("coui://ui/mods/com.pa.babylon-expansion/img/ctrl_user_locked_mla.png")
+    0 17 53 17 !important;
+}
+
+/* Babylon commander picker colouring*/
+
+.div-commander-picker-item.btn_std_ix.babylonCommander {
+  color: rgb(255, 220, 220) !important;
+  border-color: #e5f609 !important;
+  background: rgba(0, 100, 0, 0.5) !important;
+}
+
+.div-commander-picker-item.babylonCommander.btn_std_ix:hover {
+  background: rgb(229, 246, 9) !important;
+  border: 1px solid rgba(158, 0, 0, 0.1) !important;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.8) !important;
+}
+
+.div-commander-picker-item.babylonCommander.btn_std_ix:active {
+  background: rgba(0, 255, 0, 1) !important;
+  border: 1px solid rgba(229, 246, 9) !important;
+  box-shadow: 0 0 30px rgba(0, 255, 0, 1) !important;
+}
+
+/* babylon commander outlines */
+
+.slot-player.babylonSlot.loading {
+  border-image: url("coui://ui/mods/com.pa.babylon-expansion/img/ctrl_user_locked_babylon.png")
+    0 17 53 17 !important;
+}
+
+.slot-player.babylonSlot.ready {
+  border-image: url("coui://ui/mods/com.pa.babylon-expansion/img/ctrl_user_locked_babylon.png")
+    0 17 53 17 !important;
+}
+
+.slot-player.babylonSlot {
+  border-image: url("coui://ui/mods/com.pa.babylon-expansion/img/ctrl_user_babylon.png")
+    0 17 53 17 !important;
+}
+
+.babylonSlot.slot-player-commander {
+  border: 1px solid #00ff00 !important;
+}
+
+.slot-player.empty.ready {
+  border-image: url("coui://ui/main/game/new_game/img/ctrl_user_slot.png") 0 17
+    53 17 !important;
+}
+
+.babylonAlert {
+  margin: 0 20px 0 0 !important;
+  display: inline-block !important;
+  color: #00ff00 !important;
+  text-shadow: 0 0 40px #00ff00 !important;
+}

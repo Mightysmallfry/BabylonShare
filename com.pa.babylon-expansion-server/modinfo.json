@@ -1,0 +1,30 @@
+{
+    "display_name" : "Babylon Expansion",
+    "identifier" : "com.palobby.babylon-expansion-server",
+    "context" : "server",
+    "author" : "MightySmallFry",
+    "version" : "0.0.1",
+    "description" : "Another faction to play as.",
+    "build" : "94243-pte",
+    "date" : "2022-05-01",
+    "signature" : "not yet implemented",
+    "github" : "https://github.com/Mightysmallfry/Babylon-Expansion",
+    "icon" : "",
+    "category":
+    [
+        "addon",
+        "unit",
+        "titans",
+        "faction"
+    ],
+    "scenes" : {
+        "shared_build": [
+            "coui://ui/mods/com.pa.babylon-expansion/shared_build.js"],
+        "icon_atlas": [
+            "coui://ui/mods/com.pa.babylon-expansion/icon_atlas.js"], 
+        "live_game_build_bar": [
+            "coui://ui/mods/com.pa.babylon-expansion/live_game_build_bar.js"],
+            "new_game": [
+                "coui://ui/mods/com.pa.babylon-expansion/new_game.js"]
+    }
+}

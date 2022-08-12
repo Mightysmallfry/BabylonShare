@@ -1,0 +1,1 @@
+{"blend_root":{"type":"unit_state","nodes":{"being_built":{"type":"bind_pose"},"living":{"type":"playback","anim_name":"deploy","looping":false},"dead":{"type":"playback","anim_name":"idle"},"ghost":{"type":"playback","anim_name":"idle"}}}}
